@@ -1,0 +1,28 @@
+{% extends 'home/base.html' %}
+
+{% block content %}
+
+
+    <form action="{% url 'password' %}">
+        <select name="length">
+            <option value="5">5 Length Passwordaaa</option>
+            <option value="6">6 Length Password</option>
+            <option value="7">7 Length Password</option>
+            <option value="8" selected="selected">8 Length Password</option>
+            <option value="9">9 Length Password</option>
+            <option value="12">12 Length Password</option>
+        </select>
+        <br /><br />
+        <input type="checkbox" name="uppercase"> uppercase
+        <br /><br />
+        <input type="checkbox" name="special"> special characters
+        <br /><br />
+        <input type="checkbox" name="numbers"> numbers
+        <br /><br />
+        <input type="submit" value="Generate"><br>
+    </form>
+
+
+
+
+{% endblock content %}
