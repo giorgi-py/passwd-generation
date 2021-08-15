@@ -92,12 +92,22 @@ definitions = ["Slang for Pokemon Go","To collect spare change, either from couc
 # C L A S S E S 
 
 
-class Dog:
+# class Dog:
 
-    def bark(self):
-        print ("BARK!")
+#     def bark(self):
+#         print ("BARK!")
 
 
-mydog = Dog()
+# mydog = Dog()
 
-mydog.bark()
+# mydog.bark()
+
+
+
+
+my_list = ["erti", "ori", "sami", "otxi"]
+
+
+my_dict = {}
+for x in my_list:
+    print (my_dict[0])

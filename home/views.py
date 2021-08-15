@@ -2,8 +2,7 @@ from django.shortcuts import render
 import random
 
 def home_view(request):
-    gene = '001212nj24nj343'
-    return render(request, 'home/home.html', {'password': gene})
+    return render(request, 'home/home.html')
 
 def password(request):
     chars = list('abcdefghigklmnopqrstuvwxyz')
